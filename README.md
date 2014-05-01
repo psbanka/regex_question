@@ -32,7 +32,9 @@ Create a deterministic regex engine with a subset of the full Regex features.
 
   - the period ('.') operator: match any character. For example "hell." will match "hello" and "hellp"
 
-  - the question-mark operator: match zero or one instances of the previous character. For example, "hell?o" will match "hello" and "helo". Also, combining the dot and the question mark allows you to make the following expression: "hell?." will match "hello" and "help"
+  - the question-mark ('?') operator: match zero or one instances of the previous character. For example, "hell?o" will match "hello" and "helo". Also, combining the dot and the question mark allows you to make the following expression: "hell?." will match "hello" and "help"
+
+  - the star ('*') operator: match one or more instances of the previous character. For example, "hel*o" will match "helllllo", "helo", etc.
 
 
 ## What we're looking for
